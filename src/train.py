@@ -51,13 +51,3 @@ model_lr.fit(X_train, y_train)
 
 y_pred = model_lr.predict(X_test)
 y_proba = model_lr.predict_proba(X_test)[:, 1]
-
-print("Treinamento concluído!")
-print(f"Probabilidade de AVC (1º paciente): "
-      f"{y_proba[0]:.2%}")
-print("Regressão Logística treinada com sucesso!")
-print(f"\nAcurácia no conjunto de teste: {model_lr.score(X_test, y_test):.4f}")
-
-# Salvar o modelo treinado em arquivo binário
-joblib.dump(model_lr, 'modelo_avc.pkl')
-print("Modelo salvo com sucesso!")
