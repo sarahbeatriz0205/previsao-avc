@@ -21,3 +21,7 @@ print(df)
 # Maioria booleans agora
 print(df.dtypes)
 print(df.shape)
+
+CAMINHO_SAIDA = RAIZ_REPOSITORIO / 'data' / 'processed' / 'dados_tratados_pipeline.csv'
+
+df.to_csv(CAMINHO_SAIDA, index=False)
