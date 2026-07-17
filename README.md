@@ -42,7 +42,7 @@ python -m venv .venv
 3. **Ative o ambiente criado:**
 - **Se estiver no Windows**
 ```bash
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 - **Se estiver no Linux**
@@ -55,14 +55,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. **Entre dentro da pasta ```app```:**
+5. **Execute o comando:**
 ```bash
-cd app
-```
-
-6. **Execute o comando:**
-```bash
-streamlit run index.py
+streamlit run app/index.py
 ```
 
 ### E pronto! Você já pode utilizar a aplicação tranquilamente
