@@ -51,9 +51,10 @@ if submit_button:
     })
 
     previsao = modelo.predict(dados_paciente)
+    probabilidade = modelo.predict_proba(dados_paciente)
+
+    chance_avc = probabilidade[0][1] * 100
 
     st.subheader("Resultado da Análise:")
-    if previsao[0] == 1:
-        st.error("Alerta: Foi identificado alto risco de AVC.")
-    else:
-        st.success("Foi identificado baixo risco de AVC.")
+
+    st.metric("Probabilidade de AVC", f"{chance_avc:.2f}%")
