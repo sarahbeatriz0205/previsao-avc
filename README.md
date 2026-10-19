@@ -1,6 +1,6 @@
 # Quais as chances de você ter um AVC?
 
-O projeto acadêmico versionado neste repositório para a disciplina de **Técnicas de Análise de Dados** do curso de **Análise e Desenvolvimento de Sistemas (IFRN)** têm como objetivo prever **quais as chances de alguém ter um AVC** baseado nas informações de **_idade, se possui hipertensão e/ou doenças cardíacas, se fuma, índice de massa corpórea e nível de glicose._**
+O projeto acadêmico versionado neste repositório para a disciplina de **Métodos Quantitativos** do curso de **Análise e Desenvolvimento de Sistemas (IFRN)** têm como objetivo prever **quais as chances de alguém ter um AVC** baseado nas informações de **_idade, se possui hipertensão e/ou doenças cardíacas, se fuma, índice de massa corpórea e nível de glicose._**
 
 ## Arquitetura
 
